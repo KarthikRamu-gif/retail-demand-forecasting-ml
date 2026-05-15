@@ -1,2 +1,70 @@
-.ipynb_checkpoints/
+# =========================
+# Python
+# =========================
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints/
+
+# Google Colab metadata
+/content/
+
+# =========================
+# IDE / OS files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Dataset files (M5)
+# Large raw files should not be uploaded
+# =========================
+sales_train_validation.csv
+calendar.csv
+sell_prices.csv
+filtered_sales.csv
+
+# Optional compressed/raw data
+*.zip
+*.gz
+
+# =========================
+# Model outputs
+# =========================
+*.pkl
+*.joblib
+*.model
+
+# =========================
+# Generated plots / exports
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.pdf
+results/
+outputs/
+
+# =========================
+# Logs
+# =========================
+*.log

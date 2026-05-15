@@ -39,7 +39,7 @@ Dataset files used:
 │   └── Dissertation report and project documentation
 │
 ├── notebooks/
-│   └── Jupyter notebooks for preprocessing, EDA and modelling
+│   └── google collab for preprocessing, EDA and modelling
 │
 ├── results/
 │   └── Model outputs, plots and evaluation results
